@@ -27,7 +27,7 @@
         android:textSize="20dp"/>
 
     <EditText
-        android:id="@+id/enterPrecentageText"
+        android:id="@+id/precentageTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -43,7 +43,7 @@
         android:textSize="20dp"/>
 
     <EditText
-        android:id="@+id/enterNumberText"
+        android:id="@+id/numberTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -55,6 +55,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/calcBtn"
         android:layout_marginTop="30dp"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorWhite"
